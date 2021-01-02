@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <style>
+          canvas {
+
+            border: 2px solid black;
+            background-color:#B0C4DE;
+            border-radius: 15px;
+          }
+      </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <title>маятник</title>
+    <h1 className ="top">Пружинный маятник</h1>
+  </head>
+  <body>
+    <p>Коэффициент упругости k = <input id="k" type="number" value="50" min="1" max="121" step="10" >  н/м</p>
+
+	<p>Масса груза m = <input id="m" type="number" value="10" min="0.1" max="10" step="1" >  кг</p>
+
+  <p><button id="mainButton" onClick={} >ЗАПУСК</button></p>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
